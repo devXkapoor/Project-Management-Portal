@@ -13,7 +13,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 
-const Signup = () => {
+const Auth = () => {
   const [LoginEmail, setLoginEmail] = useState("")
   const [LoginPassword, setLoginPassword] = useState("")
   const [SignupName, setSignupName] = useState("")
@@ -153,4 +153,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Auth
