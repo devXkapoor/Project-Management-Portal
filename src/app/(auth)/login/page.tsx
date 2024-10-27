@@ -1,6 +1,7 @@
 'use client';
 
-import FormComponent from '@/components/FormComponent';
+import { AddANewStudent } from '@/actions/StudentActions';
+import FormComponent from '@/components/ReusableComponents/FormComponent';
 import LoginFormFields from '@/forms/LoginForm/LoginFormFields';
 import LoginFormSchema from '@/forms/LoginForm/LoginFormSchema';
 import { useState, FormEvent } from 'react';
